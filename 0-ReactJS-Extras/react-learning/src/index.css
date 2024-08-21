@@ -73,4 +73,14 @@ h1 {
   color: #04D9ff;
 } */
 
-
+.artist
+{
+  font-family: Arial, sans-serif;
+  font-size: 1.4em;
+  padding: 10px;
+  border: 1px solid #04D9ff;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 30px;
+  display: inline-block;
+}
