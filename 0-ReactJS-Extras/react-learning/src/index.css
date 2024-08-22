@@ -95,7 +95,7 @@ h1 {
   color: red;
 } */
 
-.list-category
+/* .list-category
 {
   font: 1.4em;
   font-weight: bold;
@@ -118,4 +118,12 @@ h1 {
 {
   color: gray;
   cursor: pointer;
+} */
+
+.profilePic
+{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
