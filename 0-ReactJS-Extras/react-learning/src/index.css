@@ -73,7 +73,7 @@ h1 {
   color: #04D9ff;
 } */
 
-.artist
+/* .artist
 {
   font-family: Arial, sans-serif;
   font-size: 1.4em;
@@ -93,4 +93,29 @@ h1 {
 .logged-out
 {
   color: red;
+} */
+
+.list-category
+{
+  font: 1.4em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align:center;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: gray;
+}
+
+.list-items li
+{
+   font-size: 1em;
+   list-style: none;
+   text-align:center;
+   margin: 0;
+}
+
+.list-items li:hover
+{
+  color: gray;
+  cursor: pointer;
 }
