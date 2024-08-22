@@ -1,12 +1,12 @@
-import Artist from "./Artist.jsx";
+import UserGreet from "./UserGreet.jsx";
 
 function App() {
 
   return(
     <>
-    <Artist name = "Nikkun" title="Procrastinator" isRetar={true}/>
-    <Artist name = "Rentikoy" title="Cunny Artist" isRetar={true}/>
-    <Artist />
+      <UserGreet isLoggedIn ={false} username="Nikkun"></UserGreet>
+      <UserGreet isLoggedIn ={true} username="Sakuya"></UserGreet>
+      <UserGreet isLoggedIn ={true} username="Nikkun"></UserGreet>
     </>
   );
 }
