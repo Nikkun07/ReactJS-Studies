@@ -120,10 +120,40 @@ h1 {
   cursor: pointer;
 } */
 
-.profilePic
+/* .profilePic
 {
   max-width: 60%;
   height: auto;
   border-radius: 50%;
   margin-bottom: 10px;
+} */
+
+.counter-container
+{
+  text-align: center;
+}
+
+.count-display
+{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button
+{
+  width: 150px;
+  height: 50px;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: #04D9ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover
+{
+  background-color: #00AFCF;
 }
