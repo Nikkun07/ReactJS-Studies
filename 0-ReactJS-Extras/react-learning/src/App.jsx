@@ -1,11 +1,11 @@
+import OnChange from "./OnChange.jsx";
 
-import Counter from "./Counter.jsx";
 function App() {
 
+  
   return(
     <>
-      {/* <Component /> */}
-      <Counter />
+      <OnChange/>
     </>
   );
 }
