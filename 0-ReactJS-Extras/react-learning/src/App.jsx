@@ -1,13 +1,11 @@
-import OnChange from "./OnChange.jsx";
+import ColorPicker from "./ColorPicker.jsx";
 
 function App() {
 
   
-  return(
-    <>
-      <OnChange/>
-    </>
-  );
+  return(<>
+    <ColorPicker></ColorPicker>
+  </>);
 }
 
 export default App
