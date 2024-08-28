@@ -1,10 +1,10 @@
-import MyComponent from "./UpdateArrays.jsx";
+import ObjectArrays from "./UpdateObjectArray.jsx";
 
 function App() {
 
   
   return(<>
-    <MyComponent/>
+    <ObjectArrays/>
   </>);
 }
 
